@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
+    // --- WebGL URL 매개변수 읽기용 JS 연결 ---
     [DllImport("__Internal")]
     private static extern string GetTableIdFromURL();
 
