@@ -2,7 +2,8 @@ using UnityEngine;
 
 public class akoJump : MonoBehaviour
 {
-    public GameManager gm;
+    public int speedPower = 3;
+
     Rigidbody2D rb;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +17,7 @@ public class akoJump : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            rb.linearVelocity = Vector2.up * 3;
+            rb.linearVelocity = Vector2.up * speedPower;
         }
     }
 }
