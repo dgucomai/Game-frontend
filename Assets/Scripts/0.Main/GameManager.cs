@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
 using System.Collections;
-using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour
 {
