@@ -6,6 +6,7 @@ using System.Collections;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    int lastWidth, lastHeight;
 
     // --- WebGL URL 매개변수 읽기용 JS 연결 ---
     [DllImport("__Internal")]
@@ -27,6 +28,17 @@ public class GameManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+        }
+    }
+
+    void Update()
+    {
+        if (Application.platform == RuntimePlatform.WebGLPlayer)
+        {
+            if (Screen.width != lastWidth || Screen.height != lastHeight)
+            {
+                SetResolution();
+            }
         }
     }
 
@@ -74,6 +86,41 @@ public class GameManager : MonoBehaviour
     {
         if (index < 0 || index > 4) return;
         SceneManager.LoadScene(index);
+    }
+
+    public void SetResolution()
+    {
+        float targetWidth = 1080f;
+        float targetHeight = 1920f;
+        float targetAspect = targetWidth / targetHeight;
+
+        float windowAspect = (float)Screen.width / (float)Screen.height;
+
+        if (windowAspect > targetAspect)
+        {
+            float inset = targetAspect / windowAspect;
+            Camera.main.rect = new Rect((1f - inset) / 2f, 0f, inset, 1f);
+        }
+        else
+        {
+            float inset = windowAspect / targetAspect;
+            Camera.main.rect = new Rect(0f, (1f - inset) / 2f, 1f, inset);
+        }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        SetResolution();
     }
 
     public int GetTokens() { return tokens; }
