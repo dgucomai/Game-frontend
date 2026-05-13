@@ -16,7 +16,7 @@ public class akoJump : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            rb.linearVelocity = Vector2.up * 3;
+            rb.linearVelocity = Vector2.up * 3.5f;
         }
     }
 }
