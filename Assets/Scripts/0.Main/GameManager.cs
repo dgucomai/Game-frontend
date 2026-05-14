@@ -2,10 +2,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
 using System.Collections;
+using UnityEngine.Networking;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    string apiUrl = "https://donggukcomai.shop/api";
     int lastWidth, lastHeight;
 
     // --- WebGL URL 매개변수 읽기용 JS 연결 ---
@@ -60,26 +62,17 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator LoadTokenRoutine()
     {
-        string url = $"api URL";
-
         Debug.Log("서버에 토큰 조회 요청 중...");
 
-        /* [API 완성되면 주석 해제]
-        using (UnityWebRequest request = UnityWebRequest.Get(url))
+        using (UnityWebRequest request = UnityWebRequest.Get(apiUrl + "/menus"))
         {
             yield return request.SendWebRequest();
 
             if (request.result == UnityWebRequest.Result.Success) {
-                // 예: {"tokens": 5000} 형태의 응답을 파싱
-                // this.tokens = JsonUtility.FromJson<TokenResponse>(request.downloadHandler.text).tokens;
-                Debug.Log("토큰 로드 성공!");
+                Debug.Log(request.downloadHandler.text);
+                tokens = 5000; // 임시로 고정값 할당
             }
         }
-        */
-
-        // --- 임시 데이터 ---
-        yield return new WaitForSeconds(1.0f);
-        this.tokens = 10000;
     }
 
     public void LoadScene(int index)
