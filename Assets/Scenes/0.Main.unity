@@ -4594,9 +4594,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f4a56055a365014ea7a2583f6e7e002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  agree: 1
   nickname: 
+  number: 
   currentTableId: 
   tokens: 0
+  scores: 00000000000000000000000000000000
+  bestScores: 00000000000000000000000000000000
+  readySet: {fileID: 0}
+  selectSet: {fileID: 0}
+  nicknameText: {fileID: 0}
+  numberText: {fileID: 0}
 --- !u!4 &2018349156
 Transform:
   m_ObjectHideFlags: 0
