@@ -3,6 +3,35 @@ using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
 using System.Collections;
 using UnityEngine.Networking;
+using JetBrains.Annotations;
+
+[System.Serializable]
+public class response // API에 맞게 수정 필요
+{
+    public bool success;
+    public string code;
+    public string message;
+    public response_data data;
+
+    [System.Serializable]
+    public class response_data
+    {
+        public menu[] menus;
+
+        [System.Serializable]
+        public class menu
+        {
+            public int menuId;
+            public int categoryId;
+            public string categoryName;
+            public string menuName;
+            public int price;
+            public string description;
+            public string imageUrl;
+            public bool isSoldOut;
+        }
+    }
+}
 
 public class GameManager : MonoBehaviour
 {
@@ -69,7 +98,7 @@ public class GameManager : MonoBehaviour
             yield return request.SendWebRequest();
 
             if (request.result == UnityWebRequest.Result.Success) {
-                Debug.Log(request.downloadHandler.text);
+                Debug.Log(JsonUtility.FromJson<response>(request.downloadHandler.text).data.menus[0].menuName);
                 tokens = 5000; // 임시로 고정값 할당
             }
         }
