@@ -57,6 +57,9 @@ namespace Ako
 
             Save = AkoSaveManager.Load();
             leaderboard = new MockLeaderboardService();
+
+            // 메인 GameManager의 토큰 시스템으로 코인 서비스 교체
+            AkoCoinHolder.SetService(new MainGameManagerCoinService());
         }
 
         private void OnDestroy()
