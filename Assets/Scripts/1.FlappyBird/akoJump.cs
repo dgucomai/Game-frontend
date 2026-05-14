@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class akoJump : MonoBehaviour
 {
@@ -21,4 +22,8 @@ public class akoJump : MonoBehaviour
             rb.linearVelocity = Vector2.up * speedPower;
         }
     }
+	
+	private void OnCollisionEnter2D(Collision2D other) {
+		SceneManager.LoadScene("GameOver");
+	}
 }
