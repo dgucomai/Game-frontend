@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70380b44c5803274d90734ecdf2a560c, type: 3}
+  m_Name: "AkoStage_20_\uACE0\uC8E0 \uC544\uCF54\uB8E8"
+  m_EditorClassIdentifier: Assembly-CSharp::Ako.AkoStageData
+  level: 20
+  akoName: "\uACE0\uC8E0 \uC544\uCF54\uB8E8"
+  akoSprite: {fileID: 21300000, guid: 77c246adc2f938843aa9b632d6ebee71, type: 3}
+  successRate: 22
+  protectionCost: 3
+  isSellable: 1
+  sellRewardCoins: 30
+  sellRewardItem: "\uC0AC\uC774\uB4DC \uBA54\uB274"
+  isGrowthCompletion: 0

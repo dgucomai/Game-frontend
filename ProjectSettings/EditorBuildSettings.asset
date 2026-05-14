@@ -12,16 +12,22 @@ EditorBuildSettings:
     path: Assets/Scenes/1.FlappyBird/1.FlappyBird.unity
     guid: 663593e5c5741d94e97928cf5faac034
   - enabled: 1
-    path: Assets/Scenes/1.FlappyBird/GameOver.unity
-    guid: be51a30af552d47f186df6e0a45649ea
-  - enabled: 1
     path: Assets/Scenes/2.Rock-scissors-paper.unity
     guid: ca325ca342acced4c9b8d7cdc67558b3
+  - enabled: 1
+    path: Assets/Scenes/3.AkoStart.unity
+    guid: 514d1139bd4f35044b72aa6abadbbf9e
+  - enabled: 1
+    path: Assets/Scenes/4.Basketball.unity
+    guid: a7df3f1e071dbe041a21936cdba2a2ba
+  - enabled: 1
+    path: Assets/Scenes/1.FlappyBird/GameOver.unity
+    guid: be51a30af552d47f186df6e0a45649ea
   - enabled: 1
     path: Assets/Scenes/3.Ako.unity
     guid: 7d5c4b191cf900d49875bee470cf2da2
   - enabled: 1
-    path: Assets/Scenes/4.Basketball.unity
-    guid: a7df3f1e071dbe041a21936cdba2a2ba
+    path: Assets/Scenes/3.AkoShop.unity
+    guid: 1882fe1b351e09e44b8c6de6f296f2bf
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
