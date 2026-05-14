@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using System.Runtime.InteropServices;
 using System.Collections;
 using UnityEngine.Networking;
-using JetBrains.Annotations;
+using UnityEngine.UI;
 
 [System.Serializable]
 public class response // API에 맞게 수정 필요
@@ -44,9 +44,17 @@ public class GameManager : MonoBehaviour
     private static extern string GetTableIdFromURL();
 
     [Header("Player Data")]
+    public bool agree = true;
     public string nickname;
+    public string number;
     public string currentTableId;
     public int tokens;
+
+    [Header("Object")]
+    public GameObject readySet;
+    public GameObject selectSet;
+    public Text nicknameText;
+    public Text numberText;
 
     void Awake()
     {
@@ -143,7 +151,27 @@ public class GameManager : MonoBehaviour
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetResolution();
+
+        if(scene.buildIndex == 0)
+        {
+            if(agree && (nickname == "" || nickname == null))
+            {
+                readySet.SetActive(true);
+                selectSet.SetActive(false);
+            }
+            else
+            {
+                readySet.SetActive(false);
+                selectSet.SetActive(true);
+            }
+        }
     }
+
+    public string GetNickname() { return nickname; }
+    public void SetNickname(string nickname) { this.nickname = nickname; }
+
+    public string GetNumber() { return number; }
+    public void SetNumber(string number) { this.number = number; }
 
     public int GetTokens() { return tokens; }
     public void AddTokens(int tokens) { this.tokens += tokens; }
