@@ -49,6 +49,8 @@ public class GameManager : MonoBehaviour
     public string number;
     public string currentTableId;
     public int tokens;
+    public int[] scores = {0, 0, 0, 0};
+    public int[] bestScores = {0, 0, 0, 0};
 
     [Header("Object")]
     public GameObject readySet;
@@ -175,4 +177,10 @@ public class GameManager : MonoBehaviour
 
     public int GetTokens() { return tokens; }
     public void AddTokens(int tokens) { this.tokens += tokens; }
+
+    public int GetScore(int game) { return scores[game]; }
+    public void SetScore(int game, int score) { this.scores[game] = score; }
+
+    public int GetBestScore(int game) { return bestScores[game]; }
+    public void SetBestScore(int game, int score) { this.bestScores[game] = score; }
 }
