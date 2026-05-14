@@ -41,6 +41,12 @@ TagManager:
   - name: background
     uniqueID: 3789056731
     locked: 0
+  - name: frame
+    uniqueID: 1900574307
+    locked: 0
+  - name: New Layer 8
+    uniqueID: 405694813
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
@@ -50,11 +56,14 @@ TagManager:
   - name: glow
     uniqueID: 582999693
     locked: 0
-  - name: button
-    uniqueID: 4014391213
-    locked: 0
   - name: window
     uniqueID: 3961668775
+    locked: 0
+  - name: v_button
+    uniqueID: 3733465039
+    locked: 0
+  - name: button
+    uniqueID: 4014391213
     locked: 0
   m_RenderingLayers:
   - Default
