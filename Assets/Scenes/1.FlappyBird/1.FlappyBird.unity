@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BackgroundChanger
   s1Background: {fileID: 6325679190937585609, guid: 91b3ad57c238c30498fd8174f14b6db3, type: 3}
   s2Background: {fileID: 6325679190937585609, guid: 91b3ad57c238c30498fd8174f14b6db3, type: 3}
-  s3Background: {fileID: 96497413854085732, guid: 7d9a9835b9d506741a0216ebd1dd64f0, type: 3}
+  s3Background: {fileID: -486777534330898763, guid: 4b9e10fe716da4041b784c1f373dfb03, type: 3}
   s4Background: {fileID: 6079234545422931800, guid: ecdfe161fe5dba742a9a00d68ae4bd56, type: 3}
   s5Background: {fileID: 6079234545422931800, guid: ecdfe161fe5dba742a9a00d68ae4bd56, type: 3}
 --- !u!212 &252393308
@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   gm: {fileID: 0}
-  speedPower: 4
+  speedPower: 3.5
 --- !u!70 &1559921742
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -1138,7 +1138,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 364140720205961608, guid: 83a1df861ec1b63498626021c53fe9ff, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.9
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 364140720205961608, guid: 83a1df861ec1b63498626021c53fe9ff, type: 3}
       propertyPath: m_LocalPosition.y

@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class akoJump : MonoBehaviour
 {
     public GameManager gm;
-    public int speedPower = 3;
+    public float speedPower = 3;
 
     Rigidbody2D rb;
 
