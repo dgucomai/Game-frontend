@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4352ede8448524bf280aa71c28015f14
+guid: 98af6c88821604db296ba35ef8f3ef95
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6035885896224287546
-    second: "\u1109\u116E\u11BA\u110C\u11614_0"
+      213: -3517470937011932069
+    second: replay button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u1109\u116E\u11BA\u110C\u11614_0"
+      name: replay button_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 7
-        width: 99
-        height: 122
+        x: 0
+        y: 6
+        width: 114
+        height: 97
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3b2d3d3e36c3c350800000000000000
-      internalID: 6035885896224287546
+      spriteID: b54b4a3b1de6f2fc0800000000000000
+      internalID: -3517470937011932069
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u1109\u116E\u11BA\u110C\u11614_0": 6035885896224287546
+      replay button_0: -3517470937011932069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

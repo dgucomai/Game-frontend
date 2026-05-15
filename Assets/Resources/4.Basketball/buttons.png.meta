@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: bc7aceac261db460f9bc7b7d3dbd6554
+guid: 51c578666a85b404b8a4e2b341597486
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7421540698340113081
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_0"
+      213: -8191739510646017925
+    second: buttons_0
   - first:
-      213: 2495539080134682264
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_1"
+      213: 3713549098536957005
+    second: buttons_1
   - first:
-      213: 6281532846655429946
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_2"
+      213: -480254276019886394
+    second: buttons_2
   - first:
-      213: 3591279690936447558
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_3"
+      213: -6460607209241108654
+    second: buttons_3
   - first:
-      213: -4774211419908721948
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_4"
+      213: 2958514102543403041
+    second: buttons_4
   - first:
-      213: 1170516394573562862
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_5"
+      213: 1008705478319212569
+    second: buttons_5
   - first:
-      213: 4082397692818236937
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_6"
+      213: -3219683103784253410
+    second: buttons_6
   - first:
-      213: -3148703699902866632
-    second: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_7"
+      213: 5830344958925785552
+    second: buttons_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,7 +160,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_0"
+      name: buttons_0
       rect:
         serializedVersion: 2
         x: 12
@@ -175,14 +175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9babaa2b1fb9ef660800000000000000
-      internalID: 7421540698340113081
+      spriteID: b7079671158115e80800000000000000
+      internalID: -8191739510646017925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_1"
+      name: buttons_1
       rect:
         serializedVersion: 2
         x: 253
@@ -197,14 +197,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 896688a429fe1a220800000000000000
-      internalID: 2495539080134682264
+      spriteID: d44744ada3d298330800000000000000
+      internalID: 3713549098536957005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_2"
+      name: buttons_2
       rect:
         serializedVersion: 2
         x: 6
@@ -219,14 +219,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3d58d1d7dc7c2750800000000000000
-      internalID: 6281532846655429946
+      spriteID: 6c6e8fbc74bc559f0800000000000000
+      internalID: -480254276019886394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_3"
+      name: buttons_3
       rect:
         serializedVersion: 2
         x: 253
@@ -241,14 +241,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 642775bf9d9c6d130800000000000000
-      internalID: 3591279690936447558
+      spriteID: 25f1bd319ff4756a0800000000000000
+      internalID: -6460607209241108654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_4"
+      name: buttons_4
       rect:
         serializedVersion: 2
         x: 14
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4e23ab922089ebdb0800000000000000
-      internalID: -4774211419908721948
+      spriteID: 1284511c6e0ce0920800000000000000
+      internalID: 2958514102543403041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_5"
+      name: buttons_5
       rect:
         serializedVersion: 2
         x: 131
@@ -285,14 +285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ee3045e85728e3010800000000000000
-      internalID: 1170516394573562862
+      spriteID: 9180536c944affd00800000000000000
+      internalID: 1008705478319212569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_6"
+      name: buttons_6
       rect:
         serializedVersion: 2
         x: 249
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9062e48721797a830800000000000000
-      internalID: 4082397692818236937
+      spriteID: e18cc9596436153d0800000000000000
+      internalID: -3219683103784253410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_7"
+      name: buttons_7
       rect:
         serializedVersion: 2
         x: 366
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83bd450eaae8d44d0800000000000000
-      internalID: -3148703699902866632
+      spriteID: 0d9c2c289db89e050800000000000000
+      internalID: 5830344958925785552
       vertices: []
       indices: 
       edges: []
@@ -349,14 +349,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_0": 7421540698340113081
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_1": 2495539080134682264
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_2": 6281532846655429946
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_3": 3591279690936447558
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_4": -4774211419908721948
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_5": 1170516394573562862
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_6": 4082397692818236937
-      "\u1103\u1161\u11AB\u1100\u1168\u1107\u1167\u11AF \u1107\u1165\u1110\u1173\u11AB_7": -3148703699902866632
+      buttons_0: -8191739510646017925
+      buttons_1: 3713549098536957005
+      buttons_2: -480254276019886394
+      buttons_3: -6460607209241108654
+      buttons_4: 2958514102543403041
+      buttons_5: 1008705478319212569
+      buttons_6: -3219683103784253410
+      buttons_7: 5830344958925785552
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
