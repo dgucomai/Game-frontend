@@ -12,6 +12,9 @@ public class pipe_move : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!akoJump.isGameStarted)
+            return;
+            
         transform.position += Vector3.left * speed * Time.deltaTime;
     }
 }

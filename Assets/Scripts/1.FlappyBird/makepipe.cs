@@ -14,6 +14,10 @@ public class makepipe : MonoBehaviour
 
     void Update()
     {
+        
+        if (!akoJump.isGameStarted)
+            return;
+            
         // 점수에 따라 난이도 증가
         if (Score.score >= 80)
         {
